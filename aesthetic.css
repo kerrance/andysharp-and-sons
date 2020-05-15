@@ -89,22 +89,29 @@ a {
   display: block;
 }
 
+.p-2 {
+  padding: 2.4rem;
+  display: block;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
 .column {
-  flex: calc(25% - 1.2rem);
-  max-width: calc(25% - 1.2rem);
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
 
-.column img {
-  margin-top: 1.2rem;
-  vertical-align: middle;
-  width: 100%;
+.col-3 {
+  flex: calc(25% - 1.2rem);
+  max-width: calc(25% - 1.2rem);
+}
+
+.col-4 {
+  flex: calc(33% - 1.2rem);
+  max-width: calc(33% - 1.2rem);
 }
 
 header {
@@ -141,6 +148,11 @@ header .button {
   margin: 2.5vh auto;
   background-color: #059b9a;
   max-width: 40vw;
+}
+
+section:nth-of-type(even) {
+  background-color: #095169;
+  color: #eceded;
 }
 
 .contact {
