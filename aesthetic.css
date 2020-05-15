@@ -1,0 +1,173 @@
+html,
+body,
+h1,
+h2,
+p,
+header,
+section,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', 'Segoe UI', Tahoma, sans-serif;
+  letter-spacing: -0.02rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section,
+footer {
+  padding: 1.2rem;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 0.6rem;
+}
+
+h1,
+h2 {
+  letter-spacing: -0.1rem;
+  color: #15A2D4;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.b-blue {
+  background-color: #15A2D4;
+}
+
+.c-blue {
+  color: #15A2D4;
+}
+
+.b-white {
+  background-color: initial;
+}
+
+.c-white {
+  color: white;
+}
+
+.p-1 {
+  padding: 1.2rem;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: calc(25% - 1.2rem);
+  max-width: calc(25% - 1.2rem);
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.column img {
+  margin-top: 1.2rem;
+  vertical-align: middle;
+  width: 100%;
+}
+
+header {
+  height: 100vh;
+  background-image: url("img/bg-room.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: #059b9a;
+  display: flex;
+}
+
+.contact {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 991px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .column:first-of-type {
+    padding-left: 0;
+  }
+
+  .column:last-of-type {
+    padding-right: 0;
+  }
+
+  .column img:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .column {
+    flex: calc(50% - 0.6rem);
+    max-width: calc(50% - 0.6rem);
+  }
+
+  .column:nth-of-type(odd) {
+    padding-left: 0;
+  }
+
+  .column:nth-of-type(even) {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: 479px;
+  }
+
+  header,
+  section {
+    padding-bottom: 0;
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
