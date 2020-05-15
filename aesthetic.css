@@ -116,6 +116,33 @@ header {
   display: flex;
 }
 
+header .container {
+  padding: 10vw 10vh;
+}
+
+header .logo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  max-height: 40vh;
+  margin: 0 auto 5vh;
+}
+
+header h2 {
+  font-size: 8vh;
+  color: #eceded;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  max-height: 30vh
+}
+
+header .button {
+  margin: 2.5vh auto;
+  background-color: #059b9a;
+  max-width: 40vw;
+}
+
 .contact {
   position: fixed;
   right: 0;
