@@ -99,6 +99,14 @@ a {
   color: #eceded;
 }
 
+.t-left {
+  text-align: left;
+}
+
+.t-right {
+  text-align: right;
+}
+
 .p-1 {
   padding: 1.2rem;
   display: block;
