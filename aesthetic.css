@@ -61,6 +61,11 @@ a {
   text-decoration: none;
 }
 
+.img-responsive {
+  height: auto;
+  max-width: 100%;
+}
+
 .button {
   display: block;
 }
