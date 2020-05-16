@@ -2,6 +2,7 @@ html,
 body,
 h1,
 h2,
+h3,
 p,
 header,
 section,
@@ -28,12 +29,14 @@ html {
 
 h1,
 h2,
+h3,
 p {
   margin-bottom: 0.6rem;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   letter-spacing: -0.1rem;
 }
 
@@ -42,7 +45,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
 }
 
 p:last-of-type {
