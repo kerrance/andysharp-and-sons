@@ -134,12 +134,16 @@ a {
   max-width: calc(33% - 1.2rem);
 }
 
+.col-6 {
+  flex: calc(50% - 1.2rem);
+  max-width: calc(50% - 1.2rem);
+}
+
 header {
   height: 100vh;
   background-image: url("img/bg-room.jpg");
   background-size: cover;
   background-position: center center;
-  display: flex;
 }
 
 header .container {
