@@ -67,7 +67,7 @@ a {
 }
 
 :focus {
-  outline: #15A2D4 auto 1px;
+  outline: #15A2D4 solid 2px;
 }
 
 ::selection {
