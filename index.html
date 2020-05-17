@@ -213,16 +213,58 @@
       <p>Please fill in the form below for a free, no-obligation quote.</p>
 
       <form action="https://formspree.io/moqkjakk" method="POST">
-        <label>
-          Your email:
-          <input type="text" name="_replyto">
-        </label>
-        <label>
-          Your message:
-          <textarea name="message"></textarea>
-        </label>
+        <div class="row">
+          <div class="column col-4">
+            <label>
+              Your name:
+              <input type="text" name="_name"  class="c-dark-grey b-grey p-1">
+            </label>
 
-        <button type="submit" class="button b-dark-blue c-grey">Send</button>
+            <label>
+              Your phone number:
+              <input type="text" name="_phone" class="c-dark-grey b-grey p-1">
+            </label>
+
+            <label>
+              Your email:
+              <input type="text" name="_replyto" class="c-dark-grey b-grey p-1">
+            </label>
+          </div>
+
+          <div class="column col-4">
+            <label>
+              Your postcode:
+              <input type="text" name="_postcode" class="c-dark-grey b-grey p-1">
+            </label>
+
+
+            <label>
+              Work required:
+            </label>
+            <select name="work-required" class="c-dark-grey b-grey p-1">
+              <option selected disabled>Please Select...</option>
+              <option value="External House Painting">External House Painting</option>
+              <option value="External Retail Painting">External Retail Painting</option>
+              <option value="Interior and Exterior">Interior and Exterior</option>
+              <option value="Wallpapering">Wallpapering</option>
+              <option value="Wallpaper Stripping">Wallpaper Stripping</option>
+              <option value="Internal House Painting">Internal House Painting</option>
+              <option value="Special Paint Effects">Special Paint Effects</option>
+              <option value="Plastering">Plastering</option>
+              <option value="Coving">Coving</option>
+              <option value="Combination of above (please describe in message)">Combination of above (please describe in message)</option>
+            </select>
+
+            <button type="submit" class="button b-dark-blue c-grey p-1">Send</button>
+          </div>
+
+          <div class="column col-4">
+            <label>
+              Your message:
+              <textarea name="message" class="c-dark-grey b-grey p-1"></textarea>
+            </label>
+          </div>
+        </div>
       </form>
     </div>
   </section>
