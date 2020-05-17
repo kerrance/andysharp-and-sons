@@ -90,6 +90,10 @@ a {
   background-color: #eceded;
 }
 
+.b-dark-grey {
+  background-color: #606061
+}
+
 .c-blue {
   color: #15A2D4;
 }
@@ -108,6 +112,10 @@ a {
 
 .c-grey {
   color: #eceded;
+}
+
+.c-dark-grey {
+  color: #606061
 }
 
 .t-left {
