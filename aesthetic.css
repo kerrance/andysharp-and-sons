@@ -310,6 +310,10 @@ header .button {
   max-height: 5vh;
 }
 
+footer p {
+  margin-bottom: 0;
+}
+
 .contact {
   position: fixed;
   right: 0;
