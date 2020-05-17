@@ -118,6 +118,11 @@ a {
   text-align: right;
 }
 
+.t-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .p-1 {
   padding: 1.2rem;
   display: block;
