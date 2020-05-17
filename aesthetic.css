@@ -183,6 +183,18 @@ form select {
   margin-bottom: 1.2rem;
 }
 
+.max-25 {
+  max-width: 25%;
+}
+
+.max-33 {
+  max-width: 33.3%;
+}
+
+.max-50 {
+  max-width: 50%;
+}
+
 .block {
   display: block;
 }
