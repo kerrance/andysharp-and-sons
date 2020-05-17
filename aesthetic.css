@@ -229,17 +229,17 @@ header .container {
 header .logo {
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 80vw;
   max-height: 50vh;
   margin: 0 auto 5vh;
 }
 
 header h2 {
-  font-size: 8vh;
+  font-size: 7vh;
   font-weight: 700;
   line-height: 1.2;
   margin: 0 auto 5vh;
-  max-height: 30vh
+  flex: 1 1;
 }
 
 header .button {
