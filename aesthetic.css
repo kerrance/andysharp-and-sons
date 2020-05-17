@@ -60,10 +60,6 @@ h3 {
   font-size: 1.8rem;
 }
 
-p:last-of-type {
-  margin-bottom: 0;
-}
-
 a {
   font-weight: bold;
   text-decoration: none;
@@ -316,6 +312,7 @@ header .button {
     max-width: 100%;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 1.2rem;
   }
 
   .column:nth-of-type(odd) {
@@ -331,6 +328,10 @@ header .button {
   .col-6 {
     flex: 100%;
     max-width: 100%;
+  }
+
+  form .column {
+    padding-bottom: 0;
   }
 }
 
