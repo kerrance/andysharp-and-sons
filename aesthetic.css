@@ -296,8 +296,10 @@ header .button {
   }
 
   .column {
-    flex: calc(50% - 0.6rem);
-    max-width: calc(50% - 0.6rem);
+    flex: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .column:nth-of-type(odd) {
@@ -306,6 +308,13 @@ header .button {
 
   .column:nth-of-type(even) {
     padding-right: 0;
+  }
+
+  .col-3,
+  .col-4,
+  .col-6 {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
@@ -317,12 +326,5 @@ header .button {
   header,
   section {
     padding-bottom: 0;
-  }
-
-  .column {
-    flex: 100%;
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
