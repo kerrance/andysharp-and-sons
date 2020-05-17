@@ -3,6 +3,7 @@ body,
 h1,
 h2,
 h3,
+h4,
 p,
 header,
 section,
@@ -36,6 +37,7 @@ html {
 h1,
 h2,
 h3,
+h4,
 p {
   margin-bottom: 0.6rem;
 }
@@ -164,6 +166,20 @@ form select {
 .t-center {
   text-align: center;
   margin: 0 auto;
+}
+
+.i-left {
+  display: inline;
+  float: left;
+}
+
+.i-right {
+  display: inline;
+  float: right;
+}
+
+.clear {
+  clear: both;
 }
 
 .p-1 {
