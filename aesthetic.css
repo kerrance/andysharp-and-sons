@@ -74,6 +74,10 @@ a {
   color: white;
 }
 
+button {
+  font-weight: bold;
+}
+
 button,
 input,
 button,
