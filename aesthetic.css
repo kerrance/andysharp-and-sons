@@ -274,6 +274,10 @@ form select {
   max-width: calc(50% - 1.2rem);
 }
 
+.col-img {
+  max-width: 50%;
+}
+
 header {
   height: 100vh;
   background-image: url("img/bg-room.jpg");
