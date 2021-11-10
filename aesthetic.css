@@ -26,6 +26,7 @@ select {
 
 html {
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .container {
