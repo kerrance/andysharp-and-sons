@@ -26,6 +26,7 @@ select {
 
 html {
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -271,6 +272,10 @@ form select {
 .col-6 {
   flex: calc(50% - 1.2rem);
   max-width: calc(50% - 1.2rem);
+}
+
+.col-img {
+  max-width: 50%;
 }
 
 header {
