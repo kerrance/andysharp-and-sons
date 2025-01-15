@@ -13,6 +13,8 @@ The website includes details about Andy Sharp & Sons' painting and decorating se
 
 The website is designed to inform visitors about Andy Sharp & Sons, their painting and decorating services, testimonials from customers, and a form to request a free quote.
 
+Unfortunately, Andy Sharp & Sons are now out of business, but this repository remains for posperity.
+
 ## Getting Started
 
 To set up the project locally, follow these steps:
